@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeonStar</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/diseño.css">
+
+</head>
+
+<body>
+
+    <div class="background-image"></div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">NEON STAR</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#presentacion">Inicio</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#proyectos">Servicios</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#sobre-mi">Precios</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#video-audio">Medios de pago</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#ubicacion">Ubicacion</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#contacto">Comentario</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+    <section id="presentacion" class="container text-center my-5 fadeIn">
+
+        <h1>KARAOKE INFANTIL</h1>
+
+        <img src="images/logo.png" alt="Imagen del Portafolio" class="img-fluid rounded-circle mb-3 zoomIn" style="width: 200px; height: 200px;">
+
+        <article>
+
+            <h2 class="slideUp">Canta para vivir</h2>
+
+        </article>
+
+        <p class="fadeIn">Esta es una pagina para que puedas disfrutar de manera inolvidable para ustedes nuestros clientes.</p>
+
+        <p class="fadeIn">NO IMPORTA TU FORMA DE SER, LO IMPORTANTE ES DISFRUTAR!</p>
+
+    </section>
+
+
+
+    <section id="proyectos" class="container my-5 fadeIn">
+
+        <h2 class="text-center mb-4 slideUp">NUESTROS SERVICIOS</h2>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="card">
+
+                    <img src="images/infantil.webp" class="card-img-top" alt="Musica Infantil">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Musica Infantil</h5>
+
+                        <p class="card-text">Recordar los momentos que vivimos en nuestra infancia con canciones super divertidas de manera creativa.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="card">
+
+                    <img src="images/disney.jpg" class="card-img-top" alt="Musicas de Peliculas">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Musicas de Peliculas</h5>
+
+                        <p class="card-text">Disfrutar las canciones de grandes peliculas familiares, como las de Pixar, Disney o Dreamworks.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="card">
+
+                    <img src="images/fiesta.jpg" class="card-img-top" alt="Musicas de Fiestas">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Musicas de Fiestas</h5>
+
+                        <p class="card-text">Celebrar de forma alegre y festiva con canciones que inviten a bailar.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="sobre-mi" class="container text-center my-5 fadeIn">
+
+        <h2 class="mb-4 slideUp">PRECIOS Y REFRIGERIOS</h2>
+
+        <p class="fadeIn">Ofrecemos servicios de karaoke con los siguientes precios:</p>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="icon-box">
+
+                    <img src="images/persona.jpeg" alt="Persona" class="icon">
+
+                    <h5>Por persona - $1.500</h5>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="icon-box">
+
+                    <img src="images/personas.png" alt="Pareja" class="icon">
+
+                    <h5>En pareja - $2.500</h5>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="icon-box">
+
+                    <img src="images/bebida.jpeg" alt="Bebidas" class="icon">
+
+                    <h5>Bebidas - $500</h5>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4 zoomIn">
+
+                <div class="icon-box">
+
+                    <img src="images/deditos.jpeg" alt="Deditos de Queso" class="icon">
+
+                    <h5>Deditos de queso - $500</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="Pagos" class="container my-5">
+
+        <h2 class="text-center mb-4">Medios de pago</h2>
+
+        <div class="row">
+
+            <div class="col-md-6 mb-4">
+
+                <h3>Nequi</h3>
+
+                <img src="images/qrn.jpeg" alt="QR Nequi" class="w-100">
+
+            </div>
+
+            <div class="col-md-6 mb-4">
+
+                <h3>Fotos a tu WhatsApp</h3>
+
+                <img src="images/qrw.jpeg" alt="QR WhatsApp" class="w-100">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="ubicacion" class="container my-5">
+
+        <h2 class="text-center mb-4">Ubicación</h2>
+
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.2968057549756!2d-75.55078368589472!3d10.416716392584037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fbe99673181%3A0x29bc7f98e4d1220d!2sChic%C3%B3%20Playa!5e0!3m2!1ses!2sco!4v1695916416876!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+
+
+<!-- Sección de contacto -->
+
+<section id="contacto" class="container my-5">
+
+    <h2 class="text-center mb-4">Que te parece nuestro proyecto?</h2>
+
+    <form action="#" method="post">
+
+        <div class="form-group">
+
+            <label for="comentario">Comentario</label>
+
+            <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+
+</section>
+
+
+
+<footer class="text-center py-3">
+
+    <p>&copy; 2024 NeonStar Karaoke. Todos los derechos reservados.</p>
+
+</footer>
+
+</body>
+
+</html>
